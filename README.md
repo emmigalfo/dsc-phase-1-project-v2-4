@@ -120,7 +120,7 @@ __Answer__:
     * put more money into their production budgets
     * hire directors Jennifer Lee, Kyle Balda, and James Cameron
     * make movies within genres Animation, Kids & Family, and Fiction & Fantasy
-    * keep runtimes within 100 to 150 minutes
+    * keep runtimes within 80 to 140 minutes
 3. If Microsoft wants to make some lower budget movies they can still get a high return on investment if they:
     * hire directors Oren Peli, Eduardo Sánchez, and Daniel Myrick
     * make movies within genres Horror, Special Interest, and Documentary

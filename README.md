@@ -37,13 +37,13 @@ Let's get an idea of what the data set shows by asking the following questions:
 This will help us get a baseline knowledge of what is "normal" for the industry.
 
 Analysis Shows:
-* Average net profit: $59 Million
-* Median net profit: $8.5 Million
-* Min net profit: $-200 Million
+* Average net profit: $59 Million USD
+* Median net profit: $8.5 Million USD
+* Min net profit: $-200 Million USD
      * Movie: Dark Phoenix
-* Max net profit: $2.351 Billion
+* Max net profit: $2.351 Billion USD
      * Movie: Avatar
-* Net profit range: $2551 Million
+* Net profit range: $2551 Million USD
 * Average ROI: 3.8
 * Median ROI: 0.7
 * Min ROI: -1.0
@@ -62,11 +62,20 @@ __Question__: Does it take money to make money?
 ![Scatterplot of production budget vs net profit](https://github.com/emmigalfo/dsc-phase-1-project-v2-4/blob/master/Images/Budget_NP.png)
 __Answer__: In the movie industry the trend says yes!
 
+__Question__: For a high net profit how much should be spent on production?
+
+__Answer__: Taking the top 100 movies in terms of net-profit and looking at the median production budget and net profit, we see that Microsoft can expect to spend around 160 million to produce a movie that earns someplace in the ball park of 780 million USD!
+
 __Question__: What kind of budget will see the most return on investment?
 ![Scatterplot of production budget vs ROI](https://github.com/emmigalfo/dsc-phase-1-project-v2-4/blob/master/Images/Budget_ROI.png)
 __Answer__: It seems that for a higher return on investment, lower budget films are where its at.
 
 *However, while this is good information to have, based on our previous finding that it takes money to make money, I think that Microsoft will be better off putting more money in for a higher net profit.*
+
+__Question__: For a high return on investment how much should be spent on production?
+
+__Answer__: Taking the top 100 movies in terms of return on investment and looking at the median production budget and return on investment, Microsoft can expect to spend around 7 million for a return on investment that is close to 5900%!
+
 
 ### Factor 2: Runtime
 ***
@@ -81,7 +90,7 @@ __Answer__: Somewhere around 100 minutes in length brings the most ROI.
 ### Factor 3: Directors
 ***
 
-__Question__: Which directors bring in the most net profit?
+__Question__: Which directors bring in the most net profit, and what is the average production budget for their movies?
 ![Barplot of directors vs net profit](https://github.com/emmigalfo/dsc-phase-1-project-v2-4/blob/master/Images/Director_NP.png)
 __Answer__: 
 - Jean Negulesco (deceased)
@@ -89,12 +98,17 @@ __Answer__:
 2. Kyle Balda
 3. James Cameron
 
-__Question__: Which directors bring the highest return on investment?
+*Average production budget for the top ten directors: 117 million USD*
+
+
+__Question__: Which directors bring the highest return on investment, and what is the average production budget for their movies?
 ![Barplot of directors vs return on investment](https://github.com/emmigalfo/dsc-phase-1-project-v2-4/blob/master/Images/Director_ROI.png)
 __Answer__: 
 1. Oren Peli
 2. Eduardo Sánchez
 3. Daniel Myrick
+
+*Average production budget for the top ten directors: 820 thousand USD*
 
 ### Factor 4: Genre
 ***
@@ -117,11 +131,11 @@ __Answer__:
 
 1. In the movie industry, it takes money to make money. Microsoft should be going for a larger net profit instead of a higher return on investment with a much lower net profit.
  2. For Microsoft to make the most net profit they should:
-    * put more money into their production budgets
+    * put more money into their production budgets (117-160 million USD)
     * hire directors Jennifer Lee, Kyle Balda, and James Cameron
     * make movies within genres Animation, Kids & Family, and Fiction & Fantasy
     * keep runtimes within 80 to 140 minutes
-3. If Microsoft wants to make some lower budget movies they can still get a high return on investment if they:
+3. If Microsoft wants to make some lower budget movies (820,000-7 million USD), they can still get a high return on investment if they:
     * hire directors Oren Peli, Eduardo Sánchez, and Daniel Myrick
     * make movies within genres Horror, Special Interest, and Documentary
     * keep the runtimes around 100 minutes
